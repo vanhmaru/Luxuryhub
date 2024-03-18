@@ -1,0 +1,101 @@
+
+_G.KaitanMode = true
+shared.Team = "Pirates"
+getgenv().Configs = {
+    FpsBoost = true,
+    SkipFarm = true,
+    HopIfCantKill = true,
+    BlockAllHop = false,
+
+    FastAttack = true,
+    NewFastAttack = true,
+    NoAttackAnimation = true,
+    
+    StartKaitun = true,
+    -- World 1
+    AutoPole = true, -- ?????????????????????????????????????
+    AutoSaber = true,
+    
+    AutoSecondSea = true,
+    -- World 2
+    AutoRengoku = true,
+    AutoQuestFlower = true,
+    AutoRaceV3 = false,
+    AutoBartiloQuest = true,
+    AutoCursedCaptain = true,
+    AutoDarkbeard = true,
+    AutoFactory = true,
+    AutoThirdSea = true,
+    SkipGetItemGuitar = true, -- ????? ??????? soul guiter ????? 2 ??? ????????????? will not find item until get all item for do soul guiter ( open recommend ????????????? )
+    AlliesFruit = {"Dragon-Dragon","Spirit-Spirit","Venom-Venom","Dough-Dough"}, -- ???????????????????????????????????3
+    -- World 3
+    AutoHallowScythe = true,
+    AutoBuddySword = true,
+    AutoDoughKing = true,
+    AutoSpikeyTrident = true,
+    AutoTushita = true,
+    AutoEliteHunter = true,
+    AutoDarkDagger = true,
+    AutoYama = true,
+    AutoCanvander = true,
+    AutoSoulGuitar = true, 
+    AutoRainbowHaki = true,
+    AutoCursedDualKatana = true,
+    
+    -- Fighting Style 
+    
+    AutoGodHuman = true,
+    AutoSuperhuman = true,
+    AutoDeathStep = true,
+    AutoSharkmanKarate = true,
+    AutoElectricClaw = true,
+    AutoDargonTalon = true,
+    
+    AutoDFMastery = true,
+    SettingsSkill = { -- ?????????????? mode auto
+        -- ["Z"] = 0.1,
+        -- ["X"] = 0.1,
+        -- ["C"] = 0.1,
+        -- ["V"] = 0.1, -- ??????????????????????
+    },
+    AutoSwordMastery = true,
+    SelectRaritySword = {"Mythical","Legendary"}, -- Common , Uncommon,Rare,Legendary,Mythical
+    
+    SelectRedeemCodeLevel = 1,
+    
+    -- Raids
+    
+    SelectRateFruitRaid = 1000000, -- if fruit price less u rate then we use it to auto raids
+    LimitFragmentsRaids = 100000,
+    
+    -- Devil Fruit
+        
+    SelectMainDF = {"Dragon-Dragon","Spirit-Spirit","Venom-Venom","Dough-Dough"}, -- ???????????????????????
+    SelectSubDF = {"Ice-Ice","Sand-Sand","Dark-Dark","Quake-Quake","Light-Light"}, -- ??????????????????????????????????????????????????????
+    AllowEatDFInventory = true,
+    StartSniper = true,
+        
+    -- RAM
+    
+    RAMPort = 7963,
+    RAMPassword = "",
+    AutoDescription = false,
+    
+    -- Webhook
+    
+    StartWebhook = true,
+    WebhookURL = "",
+    WebhookSettings = "Send Every 10 min", -- "Send Every 10 min","Send On Level Max And Every 10 min"
+    
+    -- CPU
+    
+    LockFPS = 120,
+    LockFPSNow = true,
+    WhiteScreen = false
+}
+_G.Key = "LuxuryV2_rwegbx15e9x4upmhkm64"
+
+
+_G.DiscordId = "814355680575881216"
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NightsTimeZ/RoyryX/main/mainpack.lua"))()
